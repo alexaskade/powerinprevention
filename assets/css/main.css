@@ -16,24 +16,18 @@ body {
 
 }
 
-/*iframe {
-   display: block;
-   margin: 0 auto;
-}*/
+iframe {
+	display: block;
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
 div {
   text-align:center;
   width:100%;
-}
-
-.centered {
-    width: 595px; /* you have to have a size or this method doesn't work */
-    height: 485px; /* think about making these max-width instead - might give you some more responsiveness */
-
-    position: absolute; /* positions out of the flow, but according to the nearest parent */
-    top: 0; right: 0; /* confuse it i guess */
-    bottom: 0; left: 0;
-    margin: auto; /* make em equal */
 }
 
 @font-face {
