@@ -13,15 +13,13 @@ body {
   line-height: 1.55em;
   text-rendering: optimizeLegibility;
   color: #555;
-  margin-right: auto; /* 1 */
-  margin-left:  auto; /* 1 */
 
 }
 
-iframe {
+/*iframe {
    display: block;
    margin: 0 auto;
-}
+}*/
 
 .your-centered-div {
     width: 595px; /* you have to have a size or this method doesn't work */
