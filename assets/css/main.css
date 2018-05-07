@@ -26,7 +26,7 @@ div {
   width:100%;
 }
 
-.your-centered-div {
+.centered {
     width: 595px; /* you have to have a size or this method doesn't work */
     height: 485px; /* think about making these max-width instead - might give you some more responsiveness */
 
