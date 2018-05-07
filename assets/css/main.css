@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font-size: 130%;
+  font-family: BIG_JOHN, Fabiolo-Regular, Fabiolo-Light, Fabiolo-Semibold;
+  font-weight: 300;
+  line-height: 1.55em;
+  padding: 0 2em;
+  text-rendering: optimizeLegibility;
+  color: #555;
+}
+
+@font-face {
+    font-family: BIG JOHN ;
+    src: url(BIG_JOHN.otf);
+}
+
+@font-face {
+    font-family: Fabiolo-Regular ;
+    src: url(Fabiolo-Regular.otf);
+}
+
+@font-face {
+    font-family: Fabiolo-Light ;
+    src: url(Fabiolo-Light.otf);
+}
+
+@font-face {
+    font-family: Fabiolo-Semibold ;
+    src: url(Fabiolo-Semibold.otf);
+}
+
+
+.page h1.format-icon:before {
+content: none;
+}
